@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/bin/bash
 
 cd ..
 cd reports/ #why is this giving a syntax error? 
