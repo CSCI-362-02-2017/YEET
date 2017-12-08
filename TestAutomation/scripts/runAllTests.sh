@@ -1,6 +1,7 @@
-#!/usr/bin/env python
+#!/bin/bash
 
-cd ../reports
+cd ..
+cd reports/ #why is this giving a syntax error? 
 
 reportsPath="$(eval pwd)"
 
