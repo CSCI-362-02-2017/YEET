@@ -1,7 +1,9 @@
 #!/bin/bash
+scriptdir="$(dirname "$0")"
+cd "$scriptdir"
 
-cd ..
-cd reports/ #why is this giving a syntax error? 
+#export SRC_DIR=$(cd "$(dirname "$0")/..";pwd) #change to relative path from script location
+cd ../reports
 
 reportsPath="$(eval pwd)"
 
